@@ -53,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
         protected void onPostExecute(String result) {
             super.onPostExecute(result);
             Log.i("weather", result);
+            //for (int i=0; i<2; i++){}
         }
     }
 
